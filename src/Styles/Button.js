@@ -18,7 +18,7 @@ font-weight: 700;
 line-height: 1.4;
 border: none;
 color: ${themes.white};
-transition: background 0.3s ease-in;
+transition: 0.3s ease-in;
 :hover{
   background: ${themes.white};
   color: ${themes.primary};
@@ -44,7 +44,7 @@ font-size: 16px;
 font-style: normal;
 font-weight: 700;
 line-height: 1.4;
-transition: background 0.3s ease-in;
+transition: 0.3s ease-in;
 :hover{
   background: ${themes.primary};
   color: ${themes.white};
