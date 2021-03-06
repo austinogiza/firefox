@@ -3,9 +3,10 @@ import { themes } from "./Color";
 
 export const primaryButton = styled.button`
 height: 64px;
-max-width: 142px;
+max-width: 162px;
 width:100%;
-border-radius: 15px;
+backface-visibility: hidden;
+border-radius: 30px;
 /* padding: 18px, 31px, 18px, 31px; */
 background: #FA4A0C;
 display: flex;
@@ -28,9 +29,9 @@ transition: 0.3s ease-in;
 
 export const ghostButton = styled.button`
 height: 64px;
-max-width: 142px;
+max-width: 162px;
 width:100%;
-border-radius: 15px;
+border-radius: 30px;
 display: flex;
 color: ${themes.white};
 align-items: center;
@@ -39,15 +40,15 @@ justify-content: center;
 background: transparent;
 border: 1px solid #FFFFFF;
 outline: none;
-
+backface-visibility: hidden;
 font-size: 16px;
 font-style: normal;
 font-weight: 700;
 line-height: 1.4;
 transition: 0.3s ease-in;
 :hover{
-  background: ${themes.primary};
-  color: ${themes.white};
+  background: ${themes.white};
+  color: ${themes.primary};
   border: none;
 }
 ` 

@@ -83,10 +83,15 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-margin: 24px 0;
+margin: 64px 0;
+@media  only screen and (max-width: 650px){
+  margin: 24px 0;
+}
 `
 const Worktileh1 = styled(Header)`
 color: ${themes.black};
+
+
 `
 const Workcover = styled.div`
 width: 100%;

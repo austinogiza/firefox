@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import { Header ,secondText} from '../Styles/TextStyle'
 import { themes } from '../Styles/Color'
 import { ghostButton,primaryButton } from '../Styles/Button'
+import background from '../Assets/background.png'
 
 const Download = () => {
   return (
@@ -26,7 +27,7 @@ const Downloadbody = styled.div`
 margin: 80px 0;
 width: 100%;
 min-height: 500px;
-background: url("https://res.cloudinary.com/austinogiza/image/upload/v1614886719/background_nksve0.png") no-repeat center center/cover;
+background: url(${background}) no-repeat center center/cover;
 position: relative;
 display: flex;
 flex-direction: column;
