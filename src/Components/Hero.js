@@ -10,7 +10,7 @@ const Hero = () => {
   <Herobody>
 <Topsection>
 <Headtextwrap><Headersmalltitle>Food app.</Headersmalltitle>
-<Headertitle>Why stay hungry when you can order form Bella Onojie</Headertitle>
+<Headertitle>Why stay hungry when you can order from Bella Onojie</Headertitle>
          <Downloadtext>Download the bella onoje’s food app now on</Downloadtext></Headtextwrap>
          <Downloadbuttons>
            <Playstore>Playstore</Playstore>
