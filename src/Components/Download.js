@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { Header ,secondText} from '../Styles/TextStyle'
 import { themes } from '../Styles/Color'
 import { ghostButton,primaryButton } from '../Styles/Button'
-import background from '../Assets/background.png'
+import background from '../Assets/background.jpg'
 
 const Download = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import background from '../Assets/hero.png'
+import background from '../Assets/hero.jpg'
 import mockup from '../Assets/mockup.png'
 import { themes } from '../Styles/Color'
 import { secondHeader,largeHeader ,secondTextLight} from '../Styles/TextStyle'
