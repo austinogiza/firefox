@@ -1,11 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
-import background from '../Assets/hero.jpg'
-import mockup from '../Assets/mockup.png'
 import { themes } from '../Styles/Color'
 import { secondHeader,largeHeader ,secondTextLight} from '../Styles/TextStyle'
 import { ghostButton,primaryButton } from '../Styles/Button'
+const background = "https://res.cloudinary.com/austinogiza/image/upload/v1617356101/hero-2_dwtos0.jpg"
+const mockup = "https://res.cloudinary.com/austinogiza/image/upload/v1617356100/mockup_neczbz.png"
+
+
 const Hero = () => {
+
   return (
   <Herobody>
 <Topsection>

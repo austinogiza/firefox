@@ -16,7 +16,7 @@ const Work = () => {
 
     <Workcover>
     <Accountimage>
-        <Image src="https://res.cloudinary.com/austinogiza/image/upload/v1614884589/mockup01_twl1qw.png" alt="Food" />
+        <Image src="https://res.cloudinary.com/austinogiza/image/upload/v1617356100/mockup02_xd93tt.png" alt="Food" />
       </Accountimage>
       <Accounttext>
         <Accounttexttitle>Create an account</Accounttexttitle>
@@ -39,11 +39,11 @@ meal as e dey hot.
 and enjoy while doing it.</Accounttextdescription>
       </Exploretext>
       <Exploreimage>
-      <Image src="https://res.cloudinary.com/austinogiza/image/upload/v1614884589/mockup02_fexgu1.png" alt="Food" />
+      <Image src="https://res.cloudinary.com/austinogiza/image/upload/v1617356099/mockup03_umekxt.png" alt="Food" />
       </Exploreimage>
     
       <Checkoutimage>
-      <Image src="https://res.cloudinary.com/austinogiza/image/upload/v1614884589/mockup03_f9qmiv.png" alt="Food" />
+      <Image src="https://res.cloudinary.com/austinogiza/image/upload/v1617356100/mockup01_rebbsl.png" alt="Food" />
       </Checkoutimage>
       <Checkouttext>
         <Accounttexttitle>Checkout</Accounttexttitle>

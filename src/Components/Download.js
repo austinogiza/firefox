@@ -3,8 +3,8 @@ import styled from 'styled-components'
 import { Header ,secondText} from '../Styles/TextStyle'
 import { themes } from '../Styles/Color'
 import { ghostButton,primaryButton } from '../Styles/Button'
-import background from '../Assets/background.jpg'
 
+const background = "https://res.cloudinary.com/austinogiza/image/upload/v1617356101/background_sbikal.jpg"
 const Download = () => {
   return (
    <>
